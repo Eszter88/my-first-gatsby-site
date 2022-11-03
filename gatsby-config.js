@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-image",
+    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-source-filesystem",
@@ -13,5 +14,6 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    
   ],
 };

@@ -20,8 +20,6 @@ export const Head = () => <Seo title="Home Page" />;
 // Step 3: Export your component
 export default IndexPage;
 
-// import * as React from "react"
-
 // const pageStyles = {
 //   color: "#232129",
 //   padding: 96,
